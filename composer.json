@@ -1,0 +1,23 @@
+{
+    "name": "sifasalafiah/velodome",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sifasalafiah\\Velodome\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sifa Salafiah",
+            "email": "sifa.salafiah@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "flipbox/lumen-generator": "^9.2",
+        "guzzlehttp/guzzle": "^7.8",
+        "laravel/lumen-framework": "^9.0",
+        "league/flysystem": "^2.0"
+    }
+}
